@@ -1,0 +1,2 @@
+C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\msbuild.exe ..\\dotnet\\TypeFinder.Tests\\TypeFinder.Tests.csproj /p:Configuration=Release
+"C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\IDE\\mstest.exe" /testcontainer:..\dotnet\TypeFinder.Tests\bin\Release\TypeFinder.Tests.dll

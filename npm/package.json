@@ -1,0 +1,32 @@
+{
+  "name": "csharp-data-annotations-parser",
+  "version": "1.0.0",
+  "description": "Parses C# Data Annotations to TypeScript/Angular Validators",
+  "scripts": {
+    "build": "npm run build:1-run-tests && npm run build:2-compile-dotnet && npm run build:3-copy-assets",
+    "build:1-run-tests": "build\\1.run-tests.bat",
+    "build:2-compile-dotnet": "build\\2.compile-dotnet.bat",
+    "build:3-copy-assets": "build\\3.copy-files.bat",
+    "parse-csharp-data-annotations": "node ./bin/parse-csharp-data-annotations.js"
+  },
+  "bin": {
+    "parse-csharp-data-annotations": "./bin/parse-csharp-data-annotations.js"
+  },
+  "author": "adamlubek@gmail.com",
+  "license": "MIT",
+  "keywords": [
+    "typescript",
+    "angular",
+    "csharp",
+    "c-sharp",
+    "reactive forms",
+    "validators",
+    "validation",
+    "data annotations",
+    "validation attributes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adamlubek/csharp-data-annotations-parser"
+  }
+}
